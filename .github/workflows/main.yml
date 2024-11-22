@@ -33,6 +33,7 @@ jobs:
         SMTP_HOST: ${{ secrets.SMTP_HOST }}
         SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        SMTP_PORT: 587
         SMTP_SSL: TRUE
       run: |
         cd github-notify-ml
