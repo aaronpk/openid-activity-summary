@@ -1,5 +1,5 @@
 {
-"EMAIL_FROM": "do_not_reply@mnot.net",
+"EMAIL_FROM": "openid-activity@aaronpk.com",
 "TEMPLATES_DIR": "templates",
 "DIGEST_SENDER":"Repository Activity Summary Bot",
 "mls": "instance/mls.json"
