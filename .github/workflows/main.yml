@@ -28,9 +28,9 @@ jobs:
         cp config.json mls.json github-notify-ml/instance/
     - name: run github-notify-ml
       env:
-        GH_OAUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SMTP_HOST: smtp.fastmail.com
-        SMTP_USERNAME: mnot@mnot.net
+        GH_OAUTH_TOKEN: ${{ secrets.GH_TOKEN }}
+        SMTP_HOST: ${{ secrets.SMTP_HOST }}
+        SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         SMTP_SSL: TRUE
       run: |
