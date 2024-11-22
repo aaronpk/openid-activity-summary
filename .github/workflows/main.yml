@@ -34,7 +34,7 @@ jobs:
         SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         SMTP_PORT: 587
-        SMTP_SSL: TRUE
+        SMTP_TLS: TRUE
       run: |
         cd github-notify-ml
         python index.py Sunday
