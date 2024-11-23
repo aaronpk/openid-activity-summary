@@ -11,5 +11,19 @@
             ],
             "topic": "IPSIE Activity Summary"
         }
+    },
+    "openid-digital-directives@lists.openid.net": {
+        "digest:sunday": {
+            "eventFilter": {
+                "notlabel": [
+                    "editorial"
+                ]
+            },
+            "repos": [
+        		"openid/death-and-the-digital-estate"
+            ],
+            "topic": "DADE Activity Summary"
+        }
     }
+
 }
