@@ -24,4 +24,4 @@ For example:
 }
 ~~~
 
-Activity summaries will be e-mailed weekly.
+Activity summaries will be e-mailed weekly, as long as this repo has activity.
